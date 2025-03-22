@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clubify - Registration</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="registerstyle.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="nav-left">
+                <a href="#" class="nav-logo">CLUBIFY</a>
+                <div class="nav-links">
+                    <a href="#" class="nav-link">HOME</a>
+                    <a href="#" class="nav-link">EXPLORE CLUBS</a>
+                    <a href="#" class="nav-link">EVENTS</a>
+                    <a href="#" class="nav-link">ABOUT US</a>
+                    <a href="#" class="nav-link">FEEDBACK</a>
+                </div>
+            </div>
+            <div class="nav-buttons">
+                <button class="btn-become-member">BECOME A MEMBER</button>
+                <button class="btn-login">LOGIN</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Registration Form -->
+    <div class="main-container">
+        <div class="form-container">
+            <h2 class="form-title">WELCOME!</h2>
+            
+            <form>
+                <div class="form-group">
+                    <i class="fas fa-user input-icon"></i>
+                    <input type="text" 
+                           class="input-field" 
+                           placeholder="CREATE USERNAME"
+                           autocomplete="username">
+                </div>
+
+                <div class="form-group">
+                    <i class="fas fa-envelope input-icon"></i>
+                    <input type="email" 
+                           class="input-field" 
+                           placeholder="ENTER YOUR EMAIL"
+                           autocomplete="email">
+                </div>
+
+                <div class="form-group">
+                    <i class="fas fa-lock input-icon"></i>
+                    <input type="password" 
+                           class="input-field" 
+                           placeholder="SET PASSWORD"
+                           autocomplete="new-password">
+                    <button type="button" class="password-toggle">
+                        <i class="fas fa-eye"></i>
+                    </button>
+                </div>
+
+                <div class="form-group">
+                    <i class="fas fa-lock input-icon"></i>
+                    <input type="password" 
+                           class="input-field" 
+                           placeholder="RE-ENTER PASSWORD"
+                           autocomplete="new-password">
+                    <button type="button" class="password-toggle">
+                        <i class="fas fa-eye"></i>
+                    </button>
+                </div>
+
+                <button type="submit" class="btn-register">
+                   
+                    <a href="../mainpage/index.html"> REGISTER </a>
+                </button>
+
+                <div class="login-text">
+                    ALREADY A USER?
+                    <a href="#" class="login-link">LOG IN</a>
+                </div>
+
+                <div class="divider">
+                    <span class="divider-text">OR</span>
+                </div>
+
+                <button type="button" class="btn-google">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                        <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                        <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+                        <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+                    </svg>
+                    <span>Sign in with Google</span>
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
